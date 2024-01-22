@@ -41,21 +41,9 @@ Before running the program, you need to set the `OPENAI_API_KEY` environment var
 ```
 export OPENAI_API_KEY='your_api_key'
 ```
-To run `scrapebot.py` and obtain screenshots of search results, follow these steps:
 
-1. Ensure you have the Chrome WebDriver installed and it is in your system's PATH.
-2. Execute the `scrapebot.py` script by running the following command in your terminal:
-
+## Finetune your model
 ```
-python scrapebot.py
-```
-
-Use `vision.py` to generate descriptions of the screenshots:
-
-1. Ensure that the `vision.py` file is in your current directory.
-2. Execute the `vision.py` script by running the following command in your terminal:
-
-```
-python vision.py
+python main.py
 ```
 
