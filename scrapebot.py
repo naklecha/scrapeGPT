@@ -14,7 +14,7 @@ query = "naklecha"
 
 driver.get(f"https://duckduckgo.com?q={query}")
 
-for _ in range(5):
+for _ in range(0):
     # Scroll down using JavaScript
     driver.find_element(By.CSS_SELECTOR, "#more-results").click()
     # Wait for a short duration to allow the content to load
